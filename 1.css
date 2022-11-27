@@ -1,0 +1,82 @@
+.body {
+    color: rgb(255, 255, 255);
+}
+
+.button {
+    background-color: rgb(249, 82, 82);
+    color: rgb(255, 255, 255);
+    line-height: 4px;
+    text-align: center;
+    height: 25px;
+    width: 125px;
+    border: none;
+    border-radius: 1px;
+}
+
+.button:hover {
+    background: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: rgb(249, 82, 82);
+    color: rgb(255, 255, 255);
+    line-height: 4px;
+    text-align: center;
+    height: 25px;
+    width: 175px;
+    border: none;
+    border-radius: 1px;
+}
+
+.button2:hover {
+    background: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.button3 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    line-height: 4px;
+    text-align: left;
+    height: 25px;
+    width: 200px;
+}
+
+.button3:hover {
+    /* background: rgb(255, 0, 0); */
+    cursor: pointer;
+}
+
+.reportbutton{
+    background-color: rgb(0, 136, 255);
+    color: rgb(255, 255, 255);
+    line-height: 4px;
+    text-align: center;
+    height: 25px;
+    width: 75px;
+    border: none;
+    border-radius: 1px;
+}
+
+.reportbutton:hover {
+    /* background: rgb(255, 0, 0); */
+    cursor: pointer;
+}
+
+.Result{
+    color: white;
+}
+
+.reason{
+    color: white;
+}
+
+.rule{
+    color: white;
+}
+
+.sheet{
+    color:rgb(255,255,255);
+    line-height:50px;
+}
