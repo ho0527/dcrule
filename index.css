@@ -90,3 +90,11 @@
 .text{
     font-size: 25px;
 }
+
+.table{
+    border-spacing: 15px 5px;
+}
+
+.table1{
+    vertical-align: top;
+}
