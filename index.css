@@ -104,3 +104,8 @@
 .table2{
     vertical-align: top;
 }
+
+.abolition{
+    text-decoration:line-through;
+    font-style: italic;
+}
