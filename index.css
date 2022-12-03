@@ -3,109 +3,221 @@
         background-color: rgb(17, 17, 17);
         color:rgb(255, 255, 255);
     }
+
+    .button {
+        background: rgb(19, 19, 19);
+        color: rgb(255, 255, 255);
+        line-height: 4px;
+        font-size: 30px;
+        text-align: center;
+        height: 50px;
+        width: 350px;
+        border: none;
+        border-radius: 1px;
+    }
+
+    .button:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+    }
+
+    .button2 {
+        background: rgb(19, 19, 19);
+        color: rgb(255, 255, 255);
+        line-height: 4px;
+        font-size: 25px;
+        text-align: center;
+        height: 50px;
+        width: 400px;
+        border: none;
+        border-radius: 1px;
+    }
+
+    .button2:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+    }
+
+    .button3 {
+        background: rgb(19, 19, 19);
+        color: rgb(255, 255, 255);
+        line-height: 4px;
+        text-align: left;
+        height: 25px;
+        width: 130px;
+    }
+
+    .button3:hover {
+        /* background: rgb(255, 0, 0); */
+        cursor: pointer;
+    }
+
+    .reportbutton{
+        background-color: rgb(0, 136, 255);
+        color: rgb(255, 255, 255);
+        line-height: 4px;
+        font-size: 25px;
+        text-align: center;
+        height: 55px;
+        width: 130px;
+        border: none;
+        border-radius: 1px;
+    }
+
+    .reportbutton:hover {
+        /* background: rgb(255, 0, 0); */
+        cursor: pointer;
+    }
+
+    .Result{
+        color: white;
+    }
+
+    .reason{
+        color: white;
+    }
+
+    .rule{
+        color: white;
+    }
+
+    .sheet{
+        color:rgb(255,255,255);
+        line-height:50px;
+    }
+
+    .text{
+        font-size: 25px;
+    }
+
+    .table{
+        border-spacing: 15px 0px;
+    }
+
+    .table1{
+        vertical-align: top;
+    }
+
+    .table2{
+        vertical-align: top;
+    }
+
+    .abolition{
+        text-decoration:line-through;
+        font-style: italic;
+    }
 }
 
-.button {
-    background: rgb(19, 19, 19);
-    color: rgb(255, 255, 255);
-    line-height: 4px;
-    font-size: 30px;
-    text-align: center;
-    height: 50px;
-    width: 350px;
-    border: none;
-    border-radius: 1px;
-}
+@media(prefers-color-scheme: light){
+    .body{
+        background-color:rgb(255, 255, 255);
+        color: rgb(17, 17, 17);
+    }
 
-.button:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-}
+    .button {
+        background: rgb(255, 255, 255); 
+        color:rgb(19, 19, 19);
+        line-height: 4px;
+        font-size: 30px;
+        text-align: center;
+        height: 50px;
+        width: 350px;
+        border: none;
+        border-radius: 1px;
+    }
 
-.button2 {
-    background: rgb(19, 19, 19);
-    color: rgb(255, 255, 255);
-    line-height: 4px;
-    font-size: 25px;
-    text-align: center;
-    height: 50px;
-    width: 400px;
-    border: none;
-    border-radius: 1px;
-}
+    .button:hover {
+        background-color:rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
 
-.button2:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-}
+    .button2 {
+        background:rgb(255, 255, 255);
+        color:  rgb(19, 19, 19);
+        line-height: 4px;
+        font-size: 25px;
+        text-align: center;
+        height: 50px;
+        width: 400px;
+        border: none;
+        border-radius: 1px;
+    }
 
-.button3 {
-    background: rgb(19, 19, 19);
-    color: rgb(255, 255, 255);
-    line-height: 4px;
-    text-align: left;
-    height: 25px;
-    width: 130px;
-}
+    .button2:hover {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
 
-.button3:hover {
-    /* background: rgb(255, 0, 0); */
-    cursor: pointer;
-}
+    .button3 {
+        background: rgb(255, 255, 255);
+        color: rgb(19, 19, 19);
+        line-height: 4px;
+        text-align: left;
+        height: 25px;
+        width: 130px;
+    }
 
-.reportbutton{
-    background-color: rgb(0, 136, 255);
-    color: rgb(255, 255, 255);
-    line-height: 4px;
-    font-size: 20px;
-    text-align: center;
-    height: 55px;
-    width: 130px;
-    border: none;
-    border-radius: 1px;
-}
+    .button3:hover {
+        /* background: rgb(255, 0, 0); */
+        cursor: pointer;
+    }
 
-.reportbutton:hover {
-    /* background: rgb(255, 0, 0); */
-    cursor: pointer;
-}
+    .reportbutton{
+        background-color: rgb(0, 136, 255);
+        color: rgb(255, 255, 255);
+        line-height: 4px;
+        font-size: 25px;
+        text-align: center;
+        height: 55px;
+        width: 130px;
+        border: none;
+        border-radius: 1px;
+    }
 
-.Result{
-    color: white;
-}
+    .reportbutton:hover {
+        /* background: rgb(255, 0, 0); */
+        cursor: pointer;
+    }
 
-.reason{
-    color: white;
-}
+    .Result{
+        color: rgb(0, 0, 0);
+    }
 
-.rule{
-    color: white;
-}
+    .reason{
+        color: rgb(0, 0, 0);
+    }
 
-.sheet{
-    color:rgb(255,255,255);
-    line-height:50px;
-}
+    .rule{
+        color: rgb(0, 0, 0);
+    }
 
-.text{
-    font-size: 25px;
-}
+    .sheet{
+        color:rgb(0, 0, 0);
+        line-height:50px;
+    }
 
-.table{
-    border-spacing: 15px 0px;
-}
+    .text{
+        font-size: 25px;
+    }
 
-.table1{
-    vertical-align: top;
-}
+    .table{
+        border-spacing: 15px 0px;
+    }
 
-.table2{
-    vertical-align: top;
-}
+    .table1{
+        vertical-align: top;
+    }
 
-.abolition{
-    text-decoration:line-through;
-    font-style: italic;
+    .table2{
+        vertical-align: top;
+    }
+
+    .abolition{
+        text-decoration:line-through;
+        font-style: italic;
+    }
 }
