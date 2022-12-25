@@ -11,7 +11,7 @@
         font-size: 30px;
         text-align: center;
         height: 50px;
-        width: 350px;
+        width: 450px;
         border: none;
         border-radius: 1px;
     }
@@ -29,7 +29,7 @@
         font-size: 25px;
         text-align: center;
         height: 50px;
-        width: 400px;
+        width: 450px;
         border: none;
         border-radius: 1px;
     }
@@ -50,7 +50,6 @@
     }
 
     .button3:hover {
-        /* background: rgb(255, 0, 0); */
         cursor: pointer;
     }
 
@@ -108,6 +107,15 @@
         text-decoration:line-through;
         font-style: italic;
     }
+
+    .all{
+        font-size: 25px;
+    }
+
+    .totaltable{
+        border: 0.5px white solid;
+        width: 300px;
+    }
 }
 
 @media(prefers-color-scheme:light){
@@ -123,7 +131,7 @@
         font-size: 30px;
         text-align: center;
         height: 50px;
-        width: 350px;
+        width: 450px;
         border: none;
         border-radius: 1px;
     }
@@ -141,7 +149,7 @@
         font-size: 25px;
         text-align: center;
         height: 50px;
-        width: 400px;
+        width: 450px;
         border: none;
         border-radius: 1px;
     }
@@ -219,5 +227,14 @@
     .abolition{
         text-decoration:line-through;
         font-style: italic;
+    }
+
+    .all{
+        font-size: 25px;
+    }
+
+    .totaltable{
+        border: 0.5px rgb(0, 0, 0) solid;
+        width: 300px;
     }
 }
