@@ -1,6 +1,6 @@
 @media(prefers-color-scheme:dark){
     *{
-    user-select: none;
+        user-select: none;
     }
 
     table{
